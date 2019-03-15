@@ -58,12 +58,16 @@ cmdline.execute('scrapy crawl nbnews'.split())
 ### 截图 : 
 
 保存在本地以新闻的发布时间来划分
+
 <img src="https://github.com/GGG1235/cnnb/blob/master/images/file1.png" width="375" alt="文件夹">
 
 <img src="https://github.com/GGG1235/cnnb/blob/master/images/file2.png" width="375" alt="本地文件新闻列表">
 
+`scrapy crawl nbnews -o nbnews.json`用scrapy的功能把内容输出为json
+
 <img src="https://github.com/GGG1235/cnnb/blob/master/images/json.png" width="375" alt="保存为json">
+
+mongodb所存储的新闻信息
 
 <img src="https://github.com/GGG1235/cnnb/blob/master/images/mongodb.png" width="375" alt="保存在mongodb">
 
-<img src="https://github.com/GGG1235/raspberrypi/blob/master/images/1.png" width="375" alt="neofetch">
